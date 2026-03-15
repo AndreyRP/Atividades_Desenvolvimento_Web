@@ -1,0 +1,43 @@
+body {
+    background-color:rgba(224, 154, 118, 0.701);
+    padding: 10px 20px;
+}
+
+.box {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto 40px;
+    padding: 20px 30px;
+
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: rgb(147, 0, 0);
+    font-size: 20px;
+    padding: 0 0 16px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+footer {
+    position: fixed;   
+    bottom: 1%;        
+    left: 20px;
+    width: 100%;       
+}
