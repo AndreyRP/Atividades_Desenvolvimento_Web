@@ -1,0 +1,100 @@
+body {
+    background-color:rgba(224, 154, 118, 0.701);
+    padding: 10px 20px;
+}
+
+.tela {
+    display: grid;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "box links"
+    "footer footer";
+    grid-template-columns: 2fr 1fr;
+    row-gap: 3rem;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    grid-area: links;
+}
+
+.menu_lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.box {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto 40px;
+    padding: 20px 30px;
+    grid-area: box;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: rgb(147, 0, 0);
+    font-size: 20px;
+    padding: 0 0 16px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+}
+
+footer {
+    position: fixed;   
+    bottom: 1%;        
+    left: 20px;
+    width: 100%; 
+    grid-area: footer;      
+}
+
+
+
+@media (max-width: 768px) {
+  .tela {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {   
+    position: relative;
+    left: 1rem;   
+}
+
+ .menu_lateral{
+    padding-left: 1rem;
+ }
+
+ .box {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto 1rem;
+    padding: 20px 30px;
+    grid-area: box;
+}
+}
