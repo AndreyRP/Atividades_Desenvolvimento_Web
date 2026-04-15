@@ -19,7 +19,7 @@ export default function App(){
           <Nav
             itens={listaNaveg}
           />
-          <main>
+          
             <Article
               titulo="Descobrindo as Praias do Nordeste"
               data={new Date("2026-03-01")}
@@ -35,7 +35,6 @@ export default function App(){
             <Aside 
               itens = {asides}
             />
-          </main>
 
           <Footer
             rodape="© 2024 - Todos os direitos reservados."
