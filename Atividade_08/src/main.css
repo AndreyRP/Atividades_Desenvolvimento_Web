@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(146, 234, 234);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+
+main{
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.lista{
+    margin-bottom: 3rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.remover{
+    margin-left: 0.5rem;
+    text-align: center;
+}
